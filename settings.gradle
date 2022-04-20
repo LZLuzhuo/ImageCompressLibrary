@@ -1,0 +1,3 @@
+include ':lib_image_compress'
+include ':app'
+rootProject.name = "ImageCompressLibrary"
