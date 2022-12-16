@@ -3,7 +3,7 @@
 # 1. 导包
 
 ```groovy
-implementation 'me.luzhuo.android:lib_image_compress:1.0.7'
+implementation 'me.luzhuo.android:lib_image_compress:1.0.8'
 ```
 
 # 2. 使用文档

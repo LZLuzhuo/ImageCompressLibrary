@@ -28,7 +28,6 @@ import me.luzhuo.lib_core.media.ImageManager;
 /**
  * 鲁班压缩引擎
  */
-@RestrictTo(RestrictTo.Scope.LIBRARY)
 public class LuBanEngine {
     // 图片压缩质量
     private static final int DEFAULT_QUALITY = 80;

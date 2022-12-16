@@ -27,7 +27,6 @@ import me.luzhuo.lib_file.FileManager;
 /**
  * 输入流适配器
  */
-@RestrictTo(RestrictTo.Scope.LIBRARY)
 public abstract class InputStreamProvider {
     private InputStream inputStream;
     protected String outPath = new FileManager(CoreBaseApplication.appContext).getCacheDirectory().getAbsolutePath() + File.separator + "compress" + File.separator + HashManager.getInstance().getUuid();
